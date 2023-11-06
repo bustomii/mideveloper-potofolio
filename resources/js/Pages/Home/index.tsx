@@ -2,6 +2,7 @@ import Facebook from '@/Icons/facebook';
 import Discord from '@/Icons/facebook copy';
 import Instagram from '@/Icons/instagram';
 import Twitter from '@/Icons/twitter copy';
+import FooterHome from '@/Layouts/Home/footer';
 import HeaderLandingPage from '@/Layouts/Home/header';
 import { PageProps } from '@/types';
 import { Head } from '@inertiajs/react';
@@ -251,6 +252,7 @@ export default function Home({ auth }: PageProps) {
                     </div>
                 </div>
             </div>
+            <FooterHome />
         </Fragment>
     );
 }
